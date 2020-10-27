@@ -1,0 +1,53 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    color: #333;
+    direction: ltr;
+    background-color: #e5e5e5;
+    overflow-x: hidden;
+
+}
+.container{
+	background-color: #fff;
+	width: 75%;
+	
+}
+
+.topic{
+	font-size: 28px;
+	color: rgb(255, 102, 0);
+	font-weight: bolder;
+	text-align: justify;
+
+}
+#b1{
+	font-size: 20px;
+	text-align: justify;
+	padding: 10px;
+}
+.video{
+	width: 50%;
+
+}
+
+
+@media (max-width: 500px) {
+	.container{
+		width: 100%;
+	}
+	.topic{
+		text-align: justify;
+	}
+	.video{
+	width: 100%;
+}
+
+	}
+	@media (max-width: 360px) {
+	.container{
+		width: 100%;
+	}
+	.video{
+	width: 100%;
+}
+}
